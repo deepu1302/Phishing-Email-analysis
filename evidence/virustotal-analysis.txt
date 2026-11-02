@@ -1,0 +1,16 @@
+PROJECT: Phishing Email Analysis
+
+Tool: VirusTotal
+
+Sample URL:
+https://example.com/account/verify
+
+Purpose:
+Practised URL lookup using VirusTotal.
+
+Observation:
+The sample uses a reserved example domain.
+No real phishing verdict can be inferred.
+
+Investigation Status:
+Training exercise completed.

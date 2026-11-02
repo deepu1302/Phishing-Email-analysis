@@ -1,0 +1,48 @@
+SOC L1 INCIDENT REPORT
+Incident: Suspicious Phishing Email Analysis
+
+1. INCIDENT SUMMARY
+A fictional suspicious email was examined in a controlled
+SOC training exercise. The email used urgent language and
+requested account verification.
+
+2. INVESTIGATION DETAILS
+Sender: support@company-security.test
+Reply-To: verify-account@suspicious-mail.test
+Subject: URGENT: Your Account Will Be Suspended
+
+3. EMAIL AUTHENTICATION
+SPF: FAIL (simulated)
+DKIM: NONE (simulated)
+DMARC: FAIL (simulated)
+
+4. INDICATORS OF COMPROMISE
+URL: https://example.com/account/verify
+IP: 192.0.2.45
+
+Note: These are reserved training indicators and are
+not confirmed malicious IoCs.
+
+5. FINDINGS
+- Sender and Reply-To domains differ.
+- Urgency-based language was used.
+- Authentication results indicate failures in the sample.
+- The verification URL requires investigation in a real case.
+
+6. RISK ASSESSMENT
+Medium risk for this training scenario.
+No actual compromise or credential theft was demonstrated.
+
+7. RECOMMENDED RESPONSE
+- Do not click suspicious links.
+- Verify the sender through a trusted channel.
+- Report and quarantine suspicious messages.
+- Block confirmed malicious indicators according to policy.
+- Review related email and authentication logs.
+
+8. CONCLUSION
+The exercise demonstrated email-header inspection,
+phishing-indicator identification, IoC extraction and
+basic SOC L1 incident documentation.
+
+Environment: Controlled cybersecurity training lab.

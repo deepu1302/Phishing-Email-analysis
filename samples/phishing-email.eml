@@ -1,0 +1,25 @@
+From: IT Support <support@company-security.test>
+To: employee@example.com
+Reply-To: verify-account@suspicious-mail.test
+Return-Path: <mailer@suspicious-mail.test>
+Subject: URGENT: Your Account Will Be Suspended
+Date: Mon, 2 Nov 2026 09:30:00 +0000
+Received: from mail.suspicious-mail.test (192.0.2.45)
+Authentication-Results: mail.lab; spf=fail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Dear Employee,
+
+Your company email account will be suspended today.
+
+We detected unusual activity. Please verify your account immediately
+to avoid losing access.
+
+Verification link:
+https://example.com/account/verify
+
+Failure to verify within 24 hours may result in account suspension.
+
+Regards,
+IT Support Team

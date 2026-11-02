@@ -1,0 +1,8 @@
+1:From: IT Support <support@company-security.test>
+2:To: employee@example.com
+3:Reply-To: verify-account@suspicious-mail.test
+4:Return-Path: <mailer@suspicious-mail.test>
+5:Subject: URGENT: Your Account Will Be Suspended
+6:Date: Mon, 2 Nov 2026 09:30:00 +0000
+7:Received: from mail.suspicious-mail.test (192.0.2.45)
+8:Authentication-Results: mail.lab; spf=fail; dkim=none; dmarc=fail
